@@ -1,5 +1,5 @@
 # Weather
-  ##Get current weather according to your location with help of [Weather API](https://openweathermap.org/)
+  ## Get current weather according to your location with help of [Weather API](https://openweathermap.org/)
      
      • Kotlin
      • Dagger-Hilt
