@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.emad.weatherapp.ui.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_savedPhotosFragment"
+            app:destination="@id/savedPhotosFragment"
+            app:enterAnim="@anim/slide_in_bottom" />
+    </fragment>
+    <fragment
+        android:id="@+id/savedPhotosFragment"
+        android:name="com.emad.weatherapp.ui.SavedPhotosFragment"
+        android:label="fragment_saved_photos"
+        tools:layout="@layout/fragment_saved_photos" >
+        <action
+            android:id="@+id/action_savedPhotosFragment_to_displayImageFragment"
+            app:destination="@id/displayImageFragment"
+            app:enterAnim="@anim/slide_in_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/displayImageFragment"
+        android:name="com.emad.weatherapp.ui.DisplayImageFragment"
+        android:label="fragment_display_image"
+        tools:layout="@layout/fragment_display_image" >
+        <argument
+            android:name="photo"
+            app:argType="com.emad.weatherapp.db.models.Photo" />
+    </fragment>
+</navigation>
