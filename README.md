@@ -13,6 +13,9 @@
      • LiveData
      • Repository Pattern
 
+  ### [Watch Demo](https://youtu.be/G4AQUfNUm4Y)
+  
+  
 <p align="center">
   <img src="Screenshot_2021-03-08-22-01-32-655_com.emad.weatherapp.jpg" width="300" title="Home Screen">
 </p>
