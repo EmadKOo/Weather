@@ -1,5 +1,6 @@
 # Weather
   ## Get current weather according to your location with help of [Weather API](https://openweathermap.org/)
+  ## also you can save image and share it across all applications.
      
      • Kotlin
      • Dagger-Hilt
